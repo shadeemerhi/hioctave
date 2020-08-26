@@ -51,7 +51,7 @@ p {
 ====================*/
 
 .bg_overlay_cover_on_landing {
-    background-color: rgba(34, 35, 53, 0.8);
+    background-color: rgba(34, 35, 53, 0.468);
     position: absolute;
     top: 0;
     right: 0;
@@ -60,7 +60,8 @@ p {
 }
 
 .bg_overlay_cover_on {
-    background-color: rgba(3, 3, 14, 0.85);
+    /* background-color: rgba(3, 3, 14, 0.612); */
+    background-color: #6c757d;
     position: absolute;
     top: 0;
     right: 0;
@@ -343,7 +344,9 @@ p {
 ------------------*/
 
 .bg_home_cover_landing {
-    background-image: url(../images/bg_business_landing.jpg);
+    /* background-image: url(../images/bg_business_landing.jpg); */
+    /* background-image: url(../images/1907.jpg); */
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
     background-size: cover;
     background-position: center center; 
 }
