@@ -37,7 +37,7 @@ button {
 
 #main-name {
     /* color: #81D8D0; */
-    color: #000;
+    color: #fff;
 }
 
 p {
@@ -349,6 +349,7 @@ p {
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
     background-size: cover;
     background-position: center center; 
+    height: 100vh;
 }
 
 .home_title_landing {
