@@ -1648,7 +1648,7 @@ textarea.form-control {
     }
     .h-100vh,
     .full_height_100vh_home {
-        height: auto;
+        /* height: auto; */
     }
     .full_height_100vh_home {
         padding: 125px 0px;
