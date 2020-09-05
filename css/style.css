@@ -436,7 +436,7 @@ hr {
 }
 
 #avison-logo {
-    height: 80%;
+    height: 90%;
 }
 
 @media (max-width: 992px) {
@@ -446,6 +446,10 @@ hr {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+.task-list {
+    padding: 20px;
 }
 
 
@@ -984,8 +988,22 @@ hr {
     transform: scale(1); 
 }
 
+.gallery_btn_container {
+    padding-bottom: 10px;
+}
+
 .btn_gallery {
     margin: 1rem;
+    white-space: nowrap;
+    width: 160px;
+}
+
+
+@media (max-width: 530px) {
+    .btn_gallery {
+        font-size: 0.6rem;
+        width: 90%;
+    }
 }
     
 @media (max-width: 450px) {
@@ -1158,7 +1176,14 @@ hr {
     border: 1px solid #ededed;
     box-shadow: 0 0 15px 1px #c9c9c9;
     border-radius: 10px;
+    padding: 20px;
 }
+
+.team_photo {
+    object-fit: cover;
+}
+
+
 
 .member_name {
     font-size: 1.5rem;
@@ -1478,7 +1503,37 @@ textarea.form-control {
 
 .bg_footer {
     background-color: #2e3234;
+    padding: 10px;
 }
+
+.footer_icon_container {
+    padding-top: 20px;
+}
+
+.footer_icon_container a {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #dd2a7b;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+
+
+.social_icon {
+    font-size: 2.5rem;
+}
+
 
 .buss_footer_menu_list li a {
     color: #6c757d;
@@ -1491,6 +1546,7 @@ textarea.form-control {
 
 .footer_alt_cpy {
     color: #6c757d;
+    padding-bottom: 15px;
 }
 
 .buss_icon_social_footer ul li a {
