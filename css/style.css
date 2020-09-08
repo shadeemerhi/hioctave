@@ -37,7 +37,7 @@ button {
 
 #main-name {
     /* color: #81D8D0; */
-    color: #fff;
+    color: #707070;
 }
 
 p {
@@ -408,12 +408,16 @@ p {
 ===================*/
 
 .about_content_box_all {
-    border: 1px solid #ededed;
     box-shadow: 0 0 15px 1px #c9c9c9;
     border-radius: 10px;
     padding: 30px;
     margin: 10px;
     text-align: center;
+}
+
+.logo-img-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 hr {
