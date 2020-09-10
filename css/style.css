@@ -413,6 +413,12 @@ p {
     padding: 30px;
     margin: 10px;
     text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.about_content_box_all:hover {
+    box-shadow: 0 0 15px 1px #707070;
+    transform: translate(0, -5px);
 }
 
 .logo-img-container {
@@ -1086,6 +1092,14 @@ hr {
 
 .landing_client_box {
     max-width: 750px;
+    box-shadow: 0 0 15px 1px #c9c9c9;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.landing_client_box:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 0 15px 1px #707070;
 }
 
 .landing_client_box .landing_client_img_box img {
@@ -1098,8 +1112,6 @@ hr {
 
 .landing_testi_desc {
     padding: 22px 30px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
 }
 
 .landing_testi_desc p {
@@ -1181,7 +1193,13 @@ hr {
     border: 1px solid #ededed;
     box-shadow: 0 0 15px 1px #c9c9c9;
     border-radius: 10px;
-    padding: 20px;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.landing_team_box:hover {
+    box-shadow: 0 0 15px 1px #707070;
+    transform: translate(0, -5px);
 }
 
 .team_photo {
