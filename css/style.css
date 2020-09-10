@@ -141,7 +141,7 @@ p {
 }
 
 .btn_outline {
-    border: 2px solid #f52a50;
+    border: 2px solid #81D8D0;
     color: #000;
 }
 
@@ -154,8 +154,8 @@ p {
 .btn_outline:focus,
 .btn_outline:hover,
 .open > .dropdown-toggle.btn_outline {
-    background-color: #f52a50;
-    border-color: #f52a50;
+    background-color: #81D8D0;
+    border-color: #81D8D0;
     color: #ffffff;
 }
 
@@ -533,7 +533,7 @@ hr {
 
 .about_social_icons ul li a {
     font-size: 19px;
-    color:  #f52a50;
+    color:  #81D8D0;
     padding-right: 12px;
 }
 
@@ -733,35 +733,6 @@ hr {
     background-image: url(../images/bg_landing_video.jpg);
     background-size: cover;
     background-attachment: fixed;
-}
-
-/*===================
-  SOFTWARE CTA
-====================*/
-
-.bg_software_cta {
-    background-image: url(../images/t_bg_2.png);
-    background-color: #222335;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.get_download h2 {
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.download_division img {
-    max-width: 180px;
-}
-
-.description_img img {
-    box-shadow: -8px 5px 30px rgba(0, 0, 0, 0.12);
-}
-
-.app_description_header{
-    max-width: 550px;
 }
 
 /*====================
@@ -1267,162 +1238,7 @@ hr {
     font-size: 38px;
 }
 
-/*====================
-  14. PRICING PLAN
-=====================*/
 
-.business_price_box {
-    padding: 40px;
-    box-shadow: 3px 8px 26px rgba(0, 0, 0, 0.06);
-}
-
-.business_price_icon i {
-    font-size: 32px;
-    border: 1px solid #ededed;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    display: inline-block;
-    border-radius: 35px;
-    background: #F2F5FF;
-}
-
-.business_plan_price span {
-    font-size: 14px;
-}
-
-/*-----------------------
-    LANDING PRICING 
--------------------------*/
-
-.landing_price_tag {
-    color: #f52a50;
-    font-size: 46px;
-    font-weight: bold;
-}
-
-.pricing_title_border {
-    background-color: #EEE;
-    width: 70%;
-    height: 1px;
-    margin-top: 20px;
-}
-
-/*---------------------
-    SOFTWARE PRICING
-----------------------*/
-
-.software_pricing_plan_box {
-    padding: 40px;
-    border-radius: 10px
-}
-
-.software_list_price {
-    padding: 20px 40px;
-}
-
-.software_list_price p {
-    margin-bottom: 10px;
-}
-
-.software_price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.software_price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.software_price_tag_heading sub {
-    font-size: 22px;
-}
-
-.software_pricing_plan_box.active {
-    border: 3px solid #f52a50;
-    position: relative;
-    overflow: hidden;
-}
-
-/*-----------------------
-    APP PRICING PLAN
-------------------------*/
-
-.app_price_box {
-    padding: 40px;
-}
-
-.app_plan_name p {
-    color: #5E5E5E;
-    font-size: 16px;
-}
-
-.app_list_price_features {
-    padding: 20px 0px;
-}
-
-.app_list_price_features p {
-    margin-bottom: 10px;
-}
-
-.app_price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.app_price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.app_price_tag_heading sub {
-    font-size: 22px;
-}
-
-
-/*===================
-  15. BUSINESS BLOG
-====================*/
-
-.buss_blog_box_detail .readable_lnk {
-    font-size: 15px;
-    letter-spacing: 2px;
-    font-weight: normal;
-}
-
-.buss_blog_box_detail .readable_lnk:hover {
-    color: #ff5c79;
-}
-
-.blog_detail_badge {
-    font-size: 14px;
-    font-weight: 500;
-    color: #ff2a58;
-    letter-spacing: 2px;
-}
-
-.buss_blog_box_detail .blog_detail_devider {
-    border-top: 1px solid #cecccc;
-}
-
-.business_social_menu li a {
-    margin-top: 22px !important;
-    color: #000;
-    font-size: 14px;
-}
-
-/*--------------------
-    PERSONAL BLOG
---------------------*/
-
-.blog_detail_badge {
-    padding: 5px 15px;
-    display: inline-block;
-    font-size: 12px;
-    /*background: rgba(255, 92, 121, 0.27);*/
-    color: #ff5c79;
-    border-radius: 30px;
-    letter-spacing: 2px;
-}
 
 
 /*====================
@@ -1442,14 +1258,6 @@ hr {
     line-height: 1.6;
 }
 
-/*====================
-  17. GREAT PEOPLE
-====================*/
-
-.logo_img img {
-    max-height: 100px;
-    width: auto !important;
-}
 
 /*=====================
     18. CONTACT US
@@ -1483,42 +1291,12 @@ textarea.form-control {
     overflow: hidden;
 }
 
-/*----------------------
-    LANDING CONTACT
-------------------------*/
-
-.landing_contact_title {
-    max-width: 400px;
-}
-
 .landing_form_custom {
     border-radius: 10px;
     box-shadow: 0 0 35px 1px #efefef;
     padding: 30px;
 }
 
-/*-------------------
-  SOFTWARE CONTACT
---------------------*/
-
-.soft_form_custom {
-    max-width: 700px;
-}
-
-/*-------------------
- MINIMAL CONTACT US
---------------------*/
-
-.minimal_contact_icon i {
-    font-size: 28px;
-    background: #f1f1f1;
-    height: 70px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    line-height: 70px;
-    border-radius: 50px;
-}
 
 /*==================
     19.FOOTER
@@ -1557,8 +1335,6 @@ textarea.form-control {
     margin: 0px;
 }
 
-
-
 .social_icon {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.5);
@@ -1570,142 +1346,18 @@ textarea.form-control {
     justify-content: center;
 }
 
-
-.buss_footer_menu_list li a {
-    color: #6c757d;
-    font-size: 16px;
-}
-
-.buss_footer_menu_list li {
-    padding-bottom: 10px;
-}
-
 .footer_alt_cpy {
     color: #6c757d;
     padding-bottom: 15px;
-}
-
-.buss_icon_social_footer ul li a {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.5);
-    height: 45px;
-    width: 45px;
-    display: inline-block;
-    line-height: 43px;
-    border-radius: 50%;
-    transition: all 0.5s;
-    text-align: center;
-    font-size: 16px;
-}
-
-.buss_icon_social_footer ul li a:hover {
-    border: 2px solid #f52a50;
-    color: #FFF;
-}
-
-.business_footer_logo img, .minimal_footer_logo img, .footer_logo_software img {
-    max-width: 150px;
 }
 
 /*---------------------
     LANDING FOOTER
 ----------------------*/
 
-.footer_menu_list li a {
-    color: #6c757d;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.footer_menu_list li::after {
-    content: "|";
-    margin: 0 8px;
-    color: #6c757d;
-}
-
-.footer_menu_list li:last-child:after {
-    content: "";
-    margin: 0px;
-}
-
 .footer_alt_cpy,
 .text-footer {
     color: #6c757d;
-}
-
-.subcribe_newslatter_footer input {
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 16px;
-    color: #000 !important;
-    border: none;
-    outline: none !important;
-    padding-right: 150px;
-    padding-left: 30px;
-    border-radius: 30px;
-    border: 2px solid #e0e0e0;
-}
-
-.subcribe_newslatter_footer button {
-    position: absolute;
-    top: 4px;
-    right: 5px;
-    outline: none !important;
-    border-radius: 30px;
-    font-size: 16px;
-    padding: 9px 30px;
-}
-
-.subcribe_newslatter_footer form {
-    max-width: 600px;
-}
-
-/* .footer_social_icons li a {
-    border: 2px solid #6c757d;
-    color: #6c757d;
-    border-radius: 50%;
-    transition: all 0.5s;
-    width: 45px;
-    height: 45px;
-    line-height: 42px;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-} */
-
-/* .footer_social_icons li a:hover {
-    color: #fff;
-    background-color: #f52a50;
-    border: 2px solid #f52a50;
-} */
-
-/*--------------------
-    FOOTER APP
----------------------*/
-
-
-.contact_details_content {
-    border-radius: 4px;
-}
-
-.contact_details_content .contact_icon i {
-    font-size: 18px;
-}
-
-.contact_detail p {
-    overflow: hidden;
-}
-
-/*---------------------
-    MINIMAL FOOTER
-----------------------*/
-
-.minimal_footer_header h5 {
-    letter-spacing: 2px;
-}
-
-.minimal_header_desc {
-    max-width: 450px;
 }
 
 
@@ -1740,7 +1392,7 @@ textarea.form-control {
         color: rgba(0, 0, 0, 0.55) !important;
     }
     .custom_nav_menu .navbar-nav li.active a {
-        color: #f52a50 !important;
+        color: #81D8D0 !important;
     }
     .custom_nav_menu>.container {
         width: 90%;
