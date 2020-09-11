@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500|Roboto:400,500');
 
-/*=================
-    01.BASIC
-===================*/
-
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -44,11 +40,6 @@ p {
     font-size: 15px;
     line-height: 1.6;
 }
-
-
-/*==================
-    02.HELPER
-====================*/
 
 .bg_overlay_cover_on_landing {
     background-color: rgba(34, 35, 53, 0.468);
@@ -161,8 +152,6 @@ p {
     /*background-color: #ffffff;*/
 }
 
-
-
 .btn_small {
     padding: 7px 14px;
 }
@@ -174,11 +163,6 @@ p {
 .btn-rounded {
     border-radius: 35px;
 }
-
-
-/*======================
-    03  NAVBAR
-=======================*/
 
 .custom_nav_menu {
     padding: 15px 0px;
@@ -272,11 +256,6 @@ p {
     display: none;
 }
 
-
-/*================
-    04.HOME
-==================*/
-
 .bg_home_cover {
     background-image: url(../images/t_bg_3.png);
     background-color: #222335;
@@ -315,12 +294,7 @@ p {
     z-index: 2;
 }
 
-/*-----------------
-   LANDING HOME
-------------------*/
-
 .bg_home_cover_landing {
-    /* background-image: url(../images/new/img1.jpg); */
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
     background-size: cover;
     background-position: center center; 
@@ -333,17 +307,9 @@ p {
     max-width: 800px;
 }
 
-/*-------------------
-   APP LANDING HOME
---------------------*/
-
 .app_btn_icon {
     font-size: 24px;
 }
-
-/*------------------
-  PERSONAL HOME
-------------------*/
 
 .bg_home_personal_cover {
     background-image: url(../images/bg_personal_img.jpg);
@@ -358,10 +324,6 @@ p {
     max-width: 700px;
 }
 
-/*-------------------
-    MINIMAL HOME
---------------------*/  
-
 .bg_home_minimal_cover {
     background-image: url(../images/bg_minimal.jpg);
     background-size: cover;
@@ -375,10 +337,6 @@ p {
     line-height: 1.6;
     max-width: 800px;
 }
-
-/*=================
-    0.5  ABOUT
-===================*/
 
 .about_content_box_all {
     box-shadow: 0 0 15px 1px #c9c9c9;
@@ -469,11 +427,6 @@ hr {
     max-height: 80px;
     width: auto !important;
 }
-
-/* Not sure if I like this - ask Lisa
-/* .service_title {
-    text-align: left;
-} */
 
 .edu_detail h5 {
     font-size: 18px;
@@ -571,13 +524,6 @@ hr {
     }
 }
 
-/* GALLERY END */
-
-
-/*----------------------
-   LANDING TESTIMONIAL
------------------------*/
-
 .landing_client_box {
     max-width: 750px;
     box-shadow: 0 0 15px 1px #c9c9c9;
@@ -609,10 +555,6 @@ hr {
 .user-work {
     font-weight: 500;
 }
-
-/*----------------------
-    LANDING TEAM
-------------------------*/
 
 .landing_team_box {
     box-shadow: 0 0 15px 1px #c9c9c9;
@@ -646,18 +588,10 @@ hr {
     text-align: center;
 }
 
-/*====================
-  17. GREAT PEOPLE
-====================*/
-
 .logo_img img {
     max-height: 100px;
     width: auto !important;
 }
-
-/*=====================
-    18. CONTACT US
-======================*/
 
 .business_form_custom .form-control {
     height: 50px;
@@ -680,11 +614,6 @@ textarea.form-control {
     box-shadow: 0 0 35px 1px #efefef;
     padding: 30px;
 }
-
-
-/*==================
-    19.FOOTER
-====================*/
 
 .bg_footer {
     background-color: #2e3234;
@@ -748,41 +677,6 @@ textarea.form-control {
 .text-footer {
     color: #6c757d;
 }
-
-/*--------------------
-    FOOTER APP
----------------------*/
-
-
-.contact_details_content {
-    border-radius: 4px;
-}
-
-.contact_details_content .contact_icon i {
-    font-size: 18px;
-}
-
-.contact_detail p {
-    overflow: hidden;
-}
-
-/*---------------------
-    MINIMAL FOOTER
-----------------------*/
-
-.minimal_footer_header h5 {
-    letter-spacing: 2px;
-}
-
-.minimal_header_desc {
-    max-width: 450px;
-}
-
-
-
-/*=====================
-    20. RESPONSIVE
-=======================*/
 
 @media (max-width: 991px) {
     .custom_nav_menu {
