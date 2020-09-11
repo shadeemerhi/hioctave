@@ -60,7 +60,6 @@ p {
 }
 
 .bg_overlay_cover_on {
-    /* background-color: rgba(3, 3, 14, 0.612); */
     background-color: #6c757d;
     position: absolute;
     top: 0;
@@ -103,13 +102,6 @@ p {
     background-color: #222335;
 }
 
-.bg_custom_gradiant {
-
-  background: #ff4b1f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ff4b1f, #ff9068); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ff4b1f, #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .btn {
     padding: 13px 32px;
     font-size: 14px;
@@ -140,24 +132,6 @@ p {
     border-color: #81D8D0;
 }
 
-.btn_outline {
-    border: 2px solid #f52a50;
-    color: #000;
-}
-
-.btn_outline:hover,
-.btn_outline:focus,
-.btn_outline:active,
-.btn_outline.active,
-.btn_outline.focus,
-.btn_outline:active,
-.btn_outline:focus,
-.btn_outline:hover,
-.open > .dropdown-toggle.btn_outline {
-    background-color: #f52a50;
-    border-color: #f52a50;
-    color: #ffffff;
-}
 
 .btn_rounded {
     border-radius: 30px;
@@ -346,8 +320,7 @@ p {
 ------------------*/
 
 .bg_home_cover_landing {
-    /* background-image: url(../images/bg_business_landing.jpg); */
-    /* background-image: url(../images/1907.jpg); */
+    /* background-image: url(../images/new/img1.jpg); */
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
     background-size: cover;
     background-position: center center; 
@@ -510,34 +483,6 @@ hr {
     width: auto !important;
 }
 
-
-/*---------------------
-    APP LANDING 
-----------------------*/
-
-.app_about_box_content {
-    max-width: 800px;
-}
-
-/*---------------------
-    ABOUT ME 
-----------------------*/
-
-.personal_about_details{
-    max-width: 450px;
-}
-
-.personal_about_information h5 {
-    line-height: 1.6;
-}
-
-.about_social_icons ul li a {
-    font-size: 19px;
-    color:  #f52a50;
-    padding-right: 12px;
-}
-
-
 /* Not sure if I like this - ask Lisa
 /* .service_title {
     text-align: left;
@@ -559,263 +504,6 @@ hr {
     padding: 0;
 }
 
-/*-------------------
-    ABOUT MINIMAL
--------------------*/
-
-.minimal_about {
-    max-width: 800px;
-}
-
-.minimal_about h4 {
-    line-height: 1.6;
-}
-
-/*====================
-   0.6 SERVICES
-=====================*/
-
-.business_services_boxes {
-    border-radius: 6px;
-}
-
-.business_services_boxes .business_services_icon i {
-    font-size: 26px;
-    color: #f52a50;
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    background-color: #fff;
-    display: inline-block;
-    border-radius: 35px;
-}
-
-.business_services_content p {
-    line-height: 1.6;
-    color: #ffffff;
-}
-
-.services_desc_bus p {
-    max-width: 700px;
-}
-
-.service_color_1 {
-    background-color: #34C5B8;
-}
-
-.service_color_2 {
-    background-color: #5668F8;
-}
-
-.service_color_3 {
-    background-color: #ff5c79;
-}
-
-
-/*--------------------
-    LANDING SERVICE
----------------------*/
-
-.services_box .service_icon i {
-    font-size: 42px;
-    color: #81D8D0;
-    text-align: center;
-}
-
-.services_box a {
-    color: #000;
-    outline: none !important;
-    transition: all 0.5s;
-}
-
-.services_box a:hover {
-    color: #0CBEFC;
-}
-
-.service_devider {
-    background-color: #81D8D0;
-    height: 2px;
-    width: 55px;
-}
-
-
-/*-------------------
-    SERVICES 
---------------------*/
-
-.personal_box_devision .service_icon i {
-    font-size: 34px;
-    background-color: #f52a50;
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    text-align: center;
-    border-radius: 50px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-/*===================
-   0.7 BUSINESS CTA 
-====================*/
-
-.bg_cta_business_img {
-    background-image: url(../images/bg_business_cta.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.cta_details {
-    max-width: 635px;
-    line-height: 2.0;
-}
-
-.bg_business_video {
-    background-image: url(../images/bg_business_video.jpg);
-    position: relative;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.all_section_heading_details {
-    color: #dadada;
-    line-height: 1.8;
-}
-
-.cta_max_width {
-    max-width: 635px;
-}
-
-.business_play_btn i {
-    background: #ff5c79;
-    color: #fff;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    border-radius: 50%;
-    font-size: 30px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 15px;
-}
-
-.business_choose_box .business_choose_icon span {
-    float: left;
-    margin-right: 20px;
-    font-size: 24px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 35px;
-    text-align: center;
-    color: #fff;
-    display: inline-block;
-    background: #f52a50;
-}
-
-.business_choose_details {
-    overflow: hidden;
-}
-
-.bg_buss_call_cta {
-    /* background-image: url(../images/bg_buss_call.jpg); */
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/*===================
-    LANDING CTA
-====================*/
-
-.bg_landing_video {
-    background-image: url(../images/bg_landing_video.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/*===================
-  SOFTWARE CTA
-====================*/
-
-.bg_software_cta {
-    background-image: url(../images/t_bg_2.png);
-    background-color: #222335;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.get_download h2 {
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.download_division img {
-    max-width: 180px;
-}
-
-.description_img img {
-    box-shadow: -8px 5px 30px rgba(0, 0, 0, 0.12);
-}
-
-.app_description_header{
-    max-width: 550px;
-}
-
-/*====================
-  08. WORK PROCESS
-====================*/
-
-.business_work_flow i {
-    font-size: 42px;
-}
-
-.work_process_details {
-    overflow: hidden;
-}
-
-.work_border_left {
-    border-left: 1px solid #d8d7d7;
-}
-
-/*=========================
-    0.9 FEATURES
-==========================*/
-
-.description_header_main {
-    max-width: 500px;
-}
-
-.business_features_box {
-    border: 1px dashed #e7e7e7;
-}
-
-.business_features_box .business_features_icon i {
-    float: left;
-    margin-right: 20px;
-    font-size: 24px;
-    width: 20px;
-}
-
-.business_features_link i {
-    font-size: 16px !important;
-}
-
-.business_features_details {
-    overflow: hidden;
-}
-
-/*=====================
-    LANDING FRATURES
-======================*/
-
-.landing_feauters_box {
-    max-width: 450px;
-    line-height: 1.4;
-}
-
 .landing_features_box .landing_features_icon i,
 .landing_features_special .landing_features_special_icon i {
     display: inline-block;
@@ -830,151 +518,12 @@ hr {
     background: #81D8D0;
 }
 
-.landing_feauters_subtitle {
+.landing_features_subtitle {
     line-height: 1.6;
 }
 
 .landing_features_img img {
     box-shadow: -8px 5px 30px rgba(0, 0, 0, 0.12);
-}
-
-.landing_features_special {
-    max-width: 500px;
-}
-
-/*---------------------
-    SOFTWARE FEATURES
------------------------*/
-
-.software_features_box .business_features_icon i {
-    float: left;
-    margin-right: 20px;
-    font-size: 24px;
-    width: 20px;
-}
-
-.business_features_link i {
-    font-size: 16px !important;
-}
-
-.business_features_details {
-    overflow: hidden;
-}
-
-/*=====================
-  10.  PORTFOLIO
-======================*/
-
-.work_menu li a {
-    cursor: pointer;
-    display: block;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    margin-bottom: 5px;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 7px 16px;
-    transition: all 0.5s;
-    /* margin-top: 5px; */
-}
-
-.work_menu a.active,
-.work_menu a:hover {
-    background-color: #ff5c79;
-    color: #fff !important;
-}
-
-.work_item {
-    position: relative;
-    padding: 15px;
-}
-
-.work_box {
-    overflow: hidden;
-    position: relative;
-}
-
-.work_box .work_img {
-    position: relative;
-    overflow: hidden;
-}
-
-.work_box .work_img:after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 5px;
-    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
-}
-
-.work_box .work_img>img {
-    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
-    border-radius: 0;
-}
-
-.work_box .work_detail {
-    opacity: 0;
-    color: #ffffff;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    overflow: hidden;
-    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
-}
-
-.work_box .work_detail h4 {
-    font-size: 22px;
-}
-
-.work_box .work_detail p {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.work_box:hover .work_detail {
-    top: 50%;
-    transform: translate(0, -50%);
-    opacity: 1;
-}
-
-.work_box:hover .work_img:after {
-    background: rgba(20, 20, 20, 0.8);
-}
-
-.work_box:hover .work_img>img {
-    transform: scale(1.05);
-}
-
-/*---------------------
-    MINIMAL PORTFOLIO
-----------------------*/
-
-.minimal_portfolio_bg {
-     background-color: #ff5c79;
-}
-
-.work_detail_miniam p{
-    color: #ff5c79;
-    font-weight: 600;   
-    letter-spacing: 2px;
-}
-
-.work_detail_miniam {
-    padding:26px 12px;
-}
-
-.work_detail_miniam h4{
-  
-    color: #ff5c79;
-    font-weight: 600;   
-    font-size: 18px;
 }
 
 /* GALLERY START */
@@ -1035,56 +584,8 @@ hr {
     }
 }
 
-/* GALLERY START */
+/* GALLERY END */
 
-/*=====================
-   11. TESTIMONIAL
-======================*/
-
-.bg_testimonial_business {
-    background-image: url("../images/business_testi.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.business_testi_content {
-    max-width: 650px;
-}
-
-.business_testi_content .business_testi_details {
-    font-size: 15px;
-    color: #ffffff;
-    line-height: 1.6;
-}
-
-.business_testi_content span {
-    font-size: 12px;
-    text-transform: capitalize;
-}
-
-.business_testi_content_img img {
-    max-width: 120px;
-    border: 5px solid #ffffff;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 12px;
-    height: 6px;
-    margin: 5px 4px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    transition: all 0.5s;
-    background: #ff5c79;
-}
-
-.owl-theme .owl-controls .owl-page.active span {
-    width: 20px;
-}
 
 /*----------------------
    LANDING TESTIMONIAL
@@ -1123,69 +624,6 @@ hr {
 }
 
 /*----------------------
-   SOFTWARE TESTIMONIAL
-------------------------*/
-
-.software_client_box {
-    max-width: 700px;
-}
-
-.software_clients_name h5 {
-    font-size: 16px;
-}
-
-.soft_client_box_img img {
-    max-width: 80px;
-}
-
-/*--------------------
-    APP TESTIMONIAL
----------------------*/
-
-.app_testi_box {
-    max-width: 600px;
-}
-
-.app_testi_box .testi_icon {
-    font-size: 48px;
-}
-
-/*--------------------
- PERSONAL TESTIMONIAL
---------------------*/
-
-
-.personal_testi_content_img img {
-    max-width: 100px;
-    border: 5px solid #ffffff;
-}
-
-/*====================
-  12. OUR TEAM
-=====================*/
-
-.business_team_box h5 {
-    font-size: 18px;
-}
-
-.business_team_box .buss_team_info {
-    padding: 12px 50px;
-}
-
-.business_team_box .business_team_social li a {
-    color: #888;
-    padding: 5px 10px;
-    transition: all 0.5s;
-    text-align: center;
-}
-
-.business_team_box .business_team_social li:hover a {
-    border-color: #f52a50;
-    background: #f52a50;
-    color: #fff;
-}
-
-/*----------------------
     LANDING TEAM
 ------------------------*/
 
@@ -1206,8 +644,6 @@ hr {
     object-fit: cover;
 }
 
-
-
 .member_name {
     font-size: 1.5rem;
 }
@@ -1222,224 +658,6 @@ hr {
     padding: 5px 10px;
     transition: all 0.5s;
     text-align: center;
-}
-
-/*--------------------
-    MINIMAL TEAM 
---------------------*/
-
-.minimal_team_box img {
-    max-width: 150px;
-    border-radius: 50%;
-}
-
-.minimal_team_box .minimal_team_social li a {
-    color: #888;
-    padding: 5px 10px;
-    transition: all 0.5s;
-    text-align: center;
-}
-
-.minimal_social_menu li a {
-    margin-top: 22px !important;
-    color: #000;
-    font-size: 12px;
-}
-
-/*==================
-  13. COUNTER
-===================*/
-
-.bg_business_counter_cover {
-    background-image: url(../images/bg_business_counter.jpg);
-    position: relative;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.counter_box .info_name {
-    font-size: 16px;
-    color: #000;
-}
-
-.counter_box .counter_icon {
-    font-size: 38px;
-}
-
-/*====================
-  14. PRICING PLAN
-=====================*/
-
-.business_price_box {
-    padding: 40px;
-    box-shadow: 3px 8px 26px rgba(0, 0, 0, 0.06);
-}
-
-.business_price_icon i {
-    font-size: 32px;
-    border: 1px solid #ededed;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    display: inline-block;
-    border-radius: 35px;
-    background: #F2F5FF;
-}
-
-.business_plan_price span {
-    font-size: 14px;
-}
-
-/*-----------------------
-    LANDING PRICING 
--------------------------*/
-
-.landing_price_tag {
-    color: #f52a50;
-    font-size: 46px;
-    font-weight: bold;
-}
-
-.pricing_title_border {
-    background-color: #EEE;
-    width: 70%;
-    height: 1px;
-    margin-top: 20px;
-}
-
-/*---------------------
-    SOFTWARE PRICING
-----------------------*/
-
-.software_pricing_plan_box {
-    padding: 40px;
-    border-radius: 10px
-}
-
-.software_list_price {
-    padding: 20px 40px;
-}
-
-.software_list_price p {
-    margin-bottom: 10px;
-}
-
-.software_price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.software_price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.software_price_tag_heading sub {
-    font-size: 22px;
-}
-
-.software_pricing_plan_box.active {
-    border: 3px solid #f52a50;
-    position: relative;
-    overflow: hidden;
-}
-
-/*-----------------------
-    APP PRICING PLAN
-------------------------*/
-
-.app_price_box {
-    padding: 40px;
-}
-
-.app_plan_name p {
-    color: #5E5E5E;
-    font-size: 16px;
-}
-
-.app_list_price_features {
-    padding: 20px 0px;
-}
-
-.app_list_price_features p {
-    margin-bottom: 10px;
-}
-
-.app_price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.app_price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.app_price_tag_heading sub {
-    font-size: 22px;
-}
-
-
-/*===================
-  15. BUSINESS BLOG
-====================*/
-
-.buss_blog_box_detail .readable_lnk {
-    font-size: 15px;
-    letter-spacing: 2px;
-    font-weight: normal;
-}
-
-.buss_blog_box_detail .readable_lnk:hover {
-    color: #ff5c79;
-}
-
-.blog_detail_badge {
-    font-size: 14px;
-    font-weight: 500;
-    color: #ff2a58;
-    letter-spacing: 2px;
-}
-
-.buss_blog_box_detail .blog_detail_devider {
-    border-top: 1px solid #cecccc;
-}
-
-.business_social_menu li a {
-    margin-top: 22px !important;
-    color: #000;
-    font-size: 14px;
-}
-
-/*--------------------
-    PERSONAL BLOG
---------------------*/
-
-.blog_detail_badge {
-    padding: 5px 15px;
-    display: inline-block;
-    font-size: 12px;
-    /*background: rgba(255, 92, 121, 0.27);*/
-    color: #ff5c79;
-    border-radius: 30px;
-    letter-spacing: 2px;
-}
-
-
-/*====================
-  16.  FAQ LANDING
-=====================*/
-
-.landing_all_faq_content {
-    max-width: 480px;
-}
-
-.landing_faq {
-    padding: 25px;
-    background-color: #EEE;
-}
-
-.landing_faq_subtitle {
-    line-height: 1.6;
 }
 
 /*====================
@@ -1466,29 +684,9 @@ textarea.form-control {
 }
 
 .business_form_custom .form-control:focus {
-    border-color: #f52a50 !important;
+    border-color: #81D8D0 !important;
     box-shadow: none;
     outline: 0;
-}
-
-.contact_details_content {
-    border-radius: 4px;
-}
-
-.contact_info_box {
-    border-radius: 10px;
-}
-
-.contact_detail p {
-    overflow: hidden;
-}
-
-/*----------------------
-    LANDING CONTACT
-------------------------*/
-
-.landing_contact_title {
-    max-width: 400px;
 }
 
 .landing_form_custom {
@@ -1497,28 +695,6 @@ textarea.form-control {
     padding: 30px;
 }
 
-/*-------------------
-  SOFTWARE CONTACT
---------------------*/
-
-.soft_form_custom {
-    max-width: 700px;
-}
-
-/*-------------------
- MINIMAL CONTACT US
---------------------*/
-
-.minimal_contact_icon i {
-    font-size: 28px;
-    background: #f1f1f1;
-    height: 70px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    line-height: 70px;
-    border-radius: 50px;
-}
 
 /*==================
     19.FOOTER
@@ -1557,8 +733,6 @@ textarea.form-control {
     margin: 0px;
 }
 
-
-
 .social_icon {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.5);
@@ -1569,7 +743,6 @@ textarea.form-control {
     align-items: center;
     justify-content: center;
 }
-
 
 .buss_footer_menu_list li a {
     color: #6c757d;
@@ -1585,99 +758,10 @@ textarea.form-control {
     padding-bottom: 15px;
 }
 
-.buss_icon_social_footer ul li a {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.5);
-    height: 45px;
-    width: 45px;
-    display: inline-block;
-    line-height: 43px;
-    border-radius: 50%;
-    transition: all 0.5s;
-    text-align: center;
-    font-size: 16px;
-}
-
-.buss_icon_social_footer ul li a:hover {
-    border: 2px solid #f52a50;
-    color: #FFF;
-}
-
-.business_footer_logo img, .minimal_footer_logo img, .footer_logo_software img {
-    max-width: 150px;
-}
-
-/*---------------------
-    LANDING FOOTER
-----------------------*/
-
-.footer_menu_list li a {
-    color: #6c757d;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.footer_menu_list li::after {
-    content: "|";
-    margin: 0 8px;
-    color: #6c757d;
-}
-
-.footer_menu_list li:last-child:after {
-    content: "";
-    margin: 0px;
-}
-
 .footer_alt_cpy,
 .text-footer {
     color: #6c757d;
 }
-
-.subcribe_newslatter_footer input {
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 16px;
-    color: #000 !important;
-    border: none;
-    outline: none !important;
-    padding-right: 150px;
-    padding-left: 30px;
-    border-radius: 30px;
-    border: 2px solid #e0e0e0;
-}
-
-.subcribe_newslatter_footer button {
-    position: absolute;
-    top: 4px;
-    right: 5px;
-    outline: none !important;
-    border-radius: 30px;
-    font-size: 16px;
-    padding: 9px 30px;
-}
-
-.subcribe_newslatter_footer form {
-    max-width: 600px;
-}
-
-/* .footer_social_icons li a {
-    border: 2px solid #6c757d;
-    color: #6c757d;
-    border-radius: 50%;
-    transition: all 0.5s;
-    width: 45px;
-    height: 45px;
-    line-height: 42px;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-} */
-
-/* .footer_social_icons li a:hover {
-    color: #fff;
-    background-color: #f52a50;
-    border: 2px solid #f52a50;
-} */
 
 /*--------------------
     FOOTER APP
