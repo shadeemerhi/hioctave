@@ -414,8 +414,6 @@ hr {
 }
 
 .logos {
-    /* display: flex; */
-    /* justify-content: center; */
     padding: 20px;
 }
 
@@ -435,17 +433,6 @@ hr {
 .task-list {
     padding: 20px;
 }
-
-
-/* .about_icon i {
-    font-size: 38px;
-    height: 65px;
-    width: 65px;
-    line-height: 65px;
-    display: inline-block;
-    border-radius: 35px;
-    text-align: center;
-} */
 
 .about_icon span {
     position: relative;
@@ -824,7 +811,7 @@ textarea.form-control {
         color: rgba(0, 0, 0, 0.55) !important;
     }
     .custom_nav_menu .navbar-nav li.active a {
-        color: #f52a50 !important;
+        color: #81D8D0 !important;
     }
     .custom_nav_menu>.container {
         width: 90%;
